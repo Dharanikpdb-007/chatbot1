@@ -3,7 +3,6 @@ import json
 import datetime
 import csv
 import nltk
-nltk.download()
 import ssl
 import streamlit as st
 import random
