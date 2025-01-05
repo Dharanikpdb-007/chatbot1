@@ -1,8 +1,13 @@
  [
     {
         "tag": "greeting",
-        "patterns": ["Hi", "How are you"],
-        "responses": ["Hi How can I assist you?", "I am fine how can I assist you?"]
+        "patterns": ["Hi"],
+        "responses": ["Hi How can I assist you?"]
+    },
+   {
+        "tag": "greeting",
+        "patterns": ["How are you"],
+        "responses": [ "I am fine how can I assist you?"]
     },
     {
         "tag":"greeting",
@@ -11,8 +16,13 @@
     },
     {
         "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
-        "responses": ["Goodbye", "See you later", "Take care"]
+        "patterns": ["Bye", "See you later"],
+        "responses": ["Goodbye"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Take care"],
+        "responses": ["See you later", "Take care"]
     },
     {
         "tag": "thanks",
