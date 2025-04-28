@@ -56,6 +56,320 @@
         "General care for a {pet_type} involves understanding their specific needs. PetMD provides information on breeds, puppies/kittens, adult and senior care. What specific aspect of {pet_type} care are you interested in?",
         "The basic needs of a {pet_type} include proper nutrition, fresh water, a safe environment, and veterinary care. PetMD has articles on these topics. What else would you like to know?",
         "Caring for a {pet_type} can be rewarding! PetMD has resources on diet, health, and behavior. What are you curious about?",
+        "Looking after your {pet_type} well ensures their health and happiness. PetMD covers a wide range of useful tips.",
+        "Here are some general tips for {pet_type} care based on PetMD resources."
+      ]
+    },
+    {
+      "tag": "feeding_nutrition",
+      "patterns": [
+        "What should I feed my [pet_type]?",
+        "Best food for [pet_type]",
+        "Diet tips for [pet_type]",
+        "How often should I feed my [pet_type]?",
+        "Nutrition advice for [pet_type]"
+      ],
+      "responses": [
+        "Feeding your {pet_type} properly is vital for their health. PetMD offers advice on types of food, portion sizes, feeding schedules, and nutritional needs. Do you need information on puppy/kitten food, adult, or senior pet diets?",
+        "For a healthy {pet_type}, choose high-quality food appropriate for their age, breed, and health status. PetMD provides detailed nutrition guides.",
+        "Feeding your {pet_type} at consistent times and monitoring their weight is key. PetMD has excellent resources on {pet_type} nutrition."
+      ]
+    },
+    {
+      "tag": "health_wellness",
+      "patterns": [
+        "Common health problems in [pet_type]",
+        "How do I know if my [pet_type] is sick?",
+        "Symptoms of illness in [pet_type]",
+        "Wellness check tips for [pet_type]",
+        "Vaccination schedule for [pet_type]",
+        "How often should my [pet_type] see a vet?"
+      ],
+      "responses": [
+        "PetMD recommends regular vet visits and knowing the signs of illness such as changes in appetite, behavior, or appearance. What symptoms are you concerned about?",
+        "Vaccinations are crucial for your {pet_type}'s health. PetMD has vaccination guidelines by species and age.",
+        "Monitoring your {pet_type}'s wellness includes watching their eating habits, energy levels, coat condition, and bathroom habits.",
+        "PetMD suggests wellness checkups at least once a year for adults and more often for young and senior pets."
+      ]
+    },
+    {
+      "tag": "behavior_training",
+      "patterns": [
+        "How to train my [pet_type]",
+        "Behavior problems in [pet_type]",
+        "Tips for [pet_type] training",
+        "My [pet_type] is misbehaving",
+        "Obedience training for [pet_type]",
+        "How to stop my [pet_type] from [behavior_issue]"
+      ],
+      "responses": [
+        "Training your {pet_type} requires consistency and positive reinforcement. PetMD offers step-by-step guides on basic commands and behavior correction.",
+        "Behavioral problems like chewing, barking, aggression, or anxiety can often be addressed through training and environmental management. What behavior issue are you facing?",
+        "PetMD's training resources cover everything from potty training to advanced commands for your {pet_type}.",
+        "Using rewards and avoiding punishment is key to successful {pet_type} training according to PetMD."
+      ]
+    },
+    {
+      "tag": "safety",
+      "patterns": [
+        "How to pet-proof my home?",
+        "Safety tips for [pet_type]",
+        "Traveling with a [pet_type]",
+        "Is [item] safe for my [pet_type]?",
+        "Pet first aid basics"
+      ],
+      "responses": [
+        "PetMD recommends securing harmful chemicals, choking hazards, and electrical cords to keep your {pet_type} safe at home.",
+        "Travel safety for your {pet_type} includes using proper carriers, seatbelt harnesses, and planning for regular stops. PetMD has travel checklists for pets.",
+        "Some household items and foods are toxic to pets. PetMD provides comprehensive lists of common dangers.",
+        "Basic first aid knowledge for pet owners includes knowing how to stop bleeding, perform CPR, and recognize emergencies. PetMD has detailed first aid guides."
+      ]
+    },
+    {
+      "tag": "first_aid",
+      "patterns": [
+        "What should I do if my [pet_type] is bleeding?",
+        "How to perform CPR on a [pet_type]",
+        "First aid for injured [pet_type]",
+        "Emergency care for [pet_type]"
+      ],
+      "responses": [
+        "For bleeding, apply gentle pressure with a clean cloth and seek veterinary care immediately. PetMD offers detailed first aid instructions.",
+        "Performing CPR on a {pet_type} involves chest compressions and rescue breaths. PetMD has species-specific CPR guidelines.",
+        "In an emergency, staying calm and getting your {pet_type} to a vet quickly is vital. PetMD provides emergency checklists and procedures."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that. Could you please rephrase your question about pet health?",
+        "Could you please provide more details? I'm here to help with your pet care inquiries based on PetMD.",
+        "I'm not sure I have the information you're looking for. Could you try asking in a different way?",
+        "Let me see if I can find information on that topic on PetMD. Could you be more specific?",
+        "I can help with questions about general pet care, health, behavior, safety, and more, based on PetMD resources. How can I assist you?"
+      ]
+    }
+  ]
+}
+
+
+On Mon, 28 Apr 2025, 3:12 pm Dharani Dharan, <dharanidharan5249@gmail.com> wrote:
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Greetings",
+        "What's up?",
+        "Is anyone there?",
+        "Hello chatbot"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey!",
+        "Greetings!",
+        "Hello, how can I help you with your pet's health today?",
+        "Hi, what pet care questions do you have based on PetMD?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "I'm leaving",
+        "Have a good day",
+        "Farewell"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Have a great day!",
+        "Take care!",
+        "Bye, feel free to reach out again if you need any pet health information from PetMD."
+      ]
+    },
+    {
+      "tag": "general_pet_care",
+      "patterns": [
+        "How to care for a [pet_type]?",
+        "What are the basics of [pet_type] care?",
+        "Tell me about [pet_type] care",
+        "What does a [pet_type] need?",
+        "Tips for [pet_type] care",
+        "How to look after my [pet_type]?"
+      ],
+      "responses": [
+        "General care for a {pet_type} involves understanding their specific needs. PetMD provides information on breeds, puppies/kittens, adult and senior care. What specific aspect of {pet_type} care are you interested in?",
+        "The basic needs of a {pet_type} include proper nutrition, fresh water, a safe environment, and veterinary care. PetMD has articles on these topics. What else would you like to know?",
+        "Caring for a {pet_type} can be rewarding! PetMD has resources on diet, health, and behavior. What are you curious about?",
+        "Looking after your {pet_type} well ensures their health and happiness. PetMD covers a wide range of useful tips.",
+        "Here are some general tips for {pet_type} care based on PetMD resources."
+      ]
+    },
+    {
+      "tag": "feeding_nutrition",
+      "patterns": [
+        "What should I feed my [pet_type]?",
+        "Best food for [pet_type]",
+        "Diet tips for [pet_type]",
+        "How often should I feed my [pet_type]?",
+        "Nutrition advice for [pet_type]"
+      ],
+      "responses": [
+        "Feeding your {pet_type} properly is vital for their health. PetMD offers advice on types of food, portion sizes, feeding schedules, and nutritional needs. Do you need information on puppy/kitten food, adult, or senior pet diets?",
+        "For a healthy {pet_type}, choose high-quality food appropriate for their age, breed, and health status. PetMD provides detailed nutrition guides.",
+        "Feeding your {pet_type} at consistent times and monitoring their weight is key. PetMD has excellent resources on {pet_type} nutrition."
+      ]
+    },
+    {
+      "tag": "health_wellness",
+      "patterns": [
+        "Common health problems in [pet_type]",
+        "How do I know if my [pet_type] is sick?",
+        "Symptoms of illness in [pet_type]",
+        "Wellness check tips for [pet_type]",
+        "Vaccination schedule for [pet_type]",
+        "How often should my [pet_type] see a vet?"
+      ],
+      "responses": [
+        "PetMD recommends regular vet visits and knowing the signs of illness such as changes in appetite, behavior, or appearance. What symptoms are you concerned about?",
+        "Vaccinations are crucial for your {pet_type}'s health. PetMD has vaccination guidelines by species and age.",
+        "Monitoring your {pet_type}'s wellness includes watching their eating habits, energy levels, coat condition, and bathroom habits.",
+        "PetMD suggests wellness checkups at least once a year for adults and more often for young and senior pets."
+      ]
+    },
+    {
+      "tag": "behavior_training",
+      "patterns": [
+        "How to train my [pet_type]",
+        "Behavior problems in [pet_type]",
+        "Tips for [pet_type] training",
+        "My [pet_type] is misbehaving",
+        "Obedience training for [pet_type]",
+        "How to stop my [pet_type] from [behavior_issue]"
+      ],
+      "responses": [
+        "Training your {pet_type} requires consistency and positive reinforcement. PetMD offers step-by-step guides on basic commands and behavior correction.",
+        "Behavioral problems like chewing, barking, aggression, or anxiety can often be addressed through training and environmental management. What behavior issue are you facing?",
+        "PetMD's training resources cover everything from potty training to advanced commands for your {pet_type}.",
+        "Using rewards and avoiding punishment is key to successful {pet_type} training according to PetMD."
+      ]
+    },
+    {
+      "tag": "safety",
+      "patterns": [
+        "How to pet-proof my home?",
+        "Safety tips for [pet_type]",
+        "Traveling with a [pet_type]",
+        "Is [item] safe for my [pet_type]?",
+        "Pet first aid basics"
+      ],
+      "responses": [
+        "PetMD recommends securing harmful chemicals, choking hazards, and electrical cords to keep your {pet_type} safe at home.",
+        "Travel safety for your {pet_type} includes using proper carriers, seatbelt harnesses, and planning for regular stops. PetMD has travel checklists for pets.",
+        "Some household items and foods are toxic to pets. PetMD provides comprehensive lists of common dangers.",
+        "Basic first aid knowledge for pet owners includes knowing how to stop bleeding, perform CPR, and recognize emergencies. PetMD has detailed first aid guides."
+      ]
+    },
+    {
+      "tag": "first_aid",
+      "patterns": [
+        "What should I do if my [pet_type] is bleeding?",
+        "How to perform CPR on a [pet_type]",
+        "First aid for injured [pet_type]",
+        "Emergency care for [pet_type]"
+      ],
+      "responses": [
+        "For bleeding, apply gentle pressure with a clean cloth and seek veterinary care immediately. PetMD offers detailed first aid instructions.",
+        "Performing CPR on a {pet_type} involves chest compressions and rescue breaths. PetMD has species-specific CPR guidelines.",
+        "In an emergency, staying calm and getting your {pet_type} to a vet quickly is vital. PetMD provides emergency checklists and procedures."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that. Could you please rephrase your question about pet health?",
+        "Could you please provide more details? I'm here to help with your pet care inquiries based on PetMD.",
+        "I'm not sure I have the information you're looking for. Could you try asking in a different way?",
+        "Let me see if I can find information on that topic on PetMD. Could you be more specific?",
+        "I can help with questions about general pet care, health, behavior, safety, and more, based on PetMD resources. How can I assist you?"
+      ]
+    }
+  ]
+}
+
+
+On Mon, 28 Apr 2025, 3:01 pm Dharani Dharan, <dharanidharan5249@gmail.com> wrote:
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Greetings",
+        "What's up?",
+        "Is anyone there?",
+        "Hello chatbot"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey!",
+        "Greetings!",
+        "Hello, how can I help you with your pet's health today?",
+        "Hi, what pet care questions do you have based on PetMD?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "I'm leaving",
+        "Have a good day",
+        "Farewell"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Have a great day!",
+        "Take care!",
+        "Bye, feel free to reach out again if you need any pet health information from PetMD."
+      ]
+    },
+    {
+      "tag": "general_pet_care",
+      "patterns": [
+        "How to care for a [pet_type]?",
+        "What are the basics of [pet_type] care?",
+        "Tell me about [pet_type] care",
+        "What does a [pet_type] need?",
+        "Tips for [pet_type] care",
+        "How to look after my [pet_type]?"
+      ],
+      "responses": [
+        "General care for a {pet_type} involves understanding their specific needs. PetMD provides information on breeds, puppies/kittens, adult and senior care. What specific aspect of {pet_type} care are you interested in?",
+        "The basic needs of a {pet_type} include proper nutrition, fresh water, a safe environment, and veterinary care. PetMD has articles on these topics. What else would you like to know?",
+        "Caring for a {pet_type} can be rewarding! PetMD has resources on diet, health, and behavior. What are you curious about?",
         "Looking after your {pet_type} well ensures their health and happiness. PetMD covers...",
         "Here are some general tips for {pet_type} care based on PetMD..."
       ]
